@@ -1,0 +1,31 @@
+body{
+    background: #DAEDFB;
+}
+.grid{
+    width:600px;
+    display:grid;
+    margin:0 auto;
+    grid-template-columns:202px auto;
+    grid-template-rows:auto 214px auto;
+    grid-gap:10px;
+}
+h1,h2,h3{
+    margin:0px;
+    padding:0px;
+    line-height:25px;
+}
+header{
+    grid-column:1/ span 2;
+    text-align:center;
+}
+input{
+     width:40px;
+ }
+aside{
+    grid-row:2/ span 2;
+}
+button{
+    width:47%;
+    height:100px;
+    margin:1%;
+}
